@@ -1,8 +1,17 @@
 
 
+body {
+    margin: 0;
+}
+
 .container {
-    width: 1140px;
+    max-width: 1180px;
     margin: 0 auto;
 }
 
+
 @import 'blocks/header';
+
+
+// медиа файл подключается последним
+@import 'blocks/media';
