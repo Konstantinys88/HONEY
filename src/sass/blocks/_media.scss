@@ -3,5 +3,30 @@
         &__tel {
             visibility: hidden;
         }
+        &__logo {
+            visibility: hidden;
+        }
+        &__list {
+            position: fixed;
+            top: -24px;
+            right: 0;
+            // left: -100%;
+            width: 50%;
+            height: 100vh;
+            padding: 10px 15px;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            background-color:rgba(185, 161, 10, 0.8);
+            li {
+                margin-top: 10px;
+            }
+        }
+        &__link {
+            font-size: 30px;
+        }
     }
 }
+
+
+// 38 урок 39 минута
