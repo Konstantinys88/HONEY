@@ -1,5 +1,8 @@
 
 
+
+@import 'base/variables';
+
 body {
     margin: 0;
 }
@@ -7,12 +10,13 @@ body {
 .container {
     max-width: 1180px;
     margin: 0 auto;
+    font-family: 'DynaPuff', cursive;
 }
 
 
 @import 'blocks/header';
+@import 'blocks/promo';
 
 
 // медиа файл подключается последним
 @import 'blocks/media';
-@import 'blocks/promo';

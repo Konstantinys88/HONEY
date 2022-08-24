@@ -1,5 +1,22 @@
 .promo {
     height: 100vh;
-    background: url('../img/bg.png') no-repeat 50%/cover; 
+    background: url('../img/honeybg.jpg') no-repeat 50%/cover; 
     padding-top: 68px;
+    &__header {
+        padding: 30px  30px 0 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: right;
+
+        }
+        h3 {
+            text-align: right;
+            font-size: 21px;
+        }
+    }
 }
