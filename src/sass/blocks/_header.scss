@@ -21,11 +21,14 @@
         text-decoration: none;
     }
     &__tel {
-        margin: 0px 0px 0px 20px;
+        margin: 0px 20px 0px 20px;
         font-size: 18px;
         a {
             text-decoration: none;
             color:antiquewhite;
         }
+    }
+    &__hamburger {
+        display: none;
     }
 }

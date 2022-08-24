@@ -1,10 +1,12 @@
 @media (max-width: 767px) {
     .header {
         &__tel {
-            visibility: hidden;
+            // visibility: hidden;
+            display: none;
         }
         &__logo {
             visibility: hidden;
+            // display: none;
         }
         &__list {
             position: fixed;
@@ -40,6 +42,46 @@
         }
         &__link {
             font-size: 30px;
+        }
+        &__hamburger {
+            display: block;
+            position: absolute;
+            right: 15px;
+            top: 40%;
+            transform: translate(-50%);
+            width: 40px;
+            span {
+                display: block;
+                height: 3px;
+                width: 100%;
+                background-color:black;
+                margin-bottom: 4px;
+            }
+            &_active {
+                display: block;
+                position: absolute;
+                right: 15px;
+                top: 40%;
+                transform: translate(-50%);
+                width: 40px;
+                span {
+                    display: block;
+                    height: 3px;
+                    width: 100%;
+                    background-color:black;
+                    margin-bottom: -2px;
+                    transition: 0.8s all;
+                    &:nth-child(1) {
+                        transform: rotate(-45deg);
+                    }
+                    &:nth-child(2){
+                        display: none;
+                    }
+                    &:nth-child(3){
+                        transform: rotate(45deg);
+                    }
+                }
+            }
         }
     }
 }
