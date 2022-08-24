@@ -11,7 +11,6 @@
         &__list {
             position: fixed;
             top: -24px;
-            // right: 0;
             left: -100%;
             width: 50%;
             height: 100vh;
@@ -21,19 +20,8 @@
             align-items:center;
             background-color:rgba(185, 161, 10, 0.8);
             transition: 2s all;
-            &_active {
+            &.active {
                 left: 0;
-                list-style: none;
-                position: fixed;
-                top: -24px;
-                width: 50%;
-                height: 100vh;
-                padding: 10px 15px;
-                background-color:rgba(185, 161, 10, 0.8);
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items:center;
                 transition: 0.8s all;
             }
             li {
@@ -50,32 +38,28 @@
             top: 40%;
             transform: translate(-50%);
             width: 40px;
+            transition: 0.8s all;
+            cursor: pointer;
             span {
                 display: block;
                 height: 3px;
                 width: 100%;
                 background-color:black;
                 margin-bottom: 4px;
+                transition: 0.8s all;
             }
-            &_active {
-                display: block;
-                position: absolute;
-                right: 15px;
-                top: 40%;
-                transform: translate(-50%);
-                width: 40px;
+            &.active {
+                transition: 0.8s all;
+                // превращение гамбургера в крестик нужно сделать обратную анимацию
                 span {
-                    display: block;
-                    height: 3px;
-                    width: 100%;
-                    background-color:black;
                     margin-bottom: -2px;
-                    transition: 0.8s all;
+                    // transition: 0.8s all;
                     &:nth-child(1) {
                         transform: rotate(-45deg);
                     }
                     &:nth-child(2){
-                        display: none;
+                        // display: none;
+                        transform: scale(0);
                     }
                     &:nth-child(3){
                         transform: rotate(45deg);
@@ -87,4 +71,3 @@
 }
 
 
-// 38 урок 39 минута
