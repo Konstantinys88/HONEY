@@ -87,6 +87,11 @@
     }
     .promo {
         background-position: 20% 100%;
+        &__header {
+            h3 {
+                display: none;
+            }
+        }
     }
     .catalog {
         &__tabs {
@@ -95,6 +100,9 @@
         &__tab {
             margin-top: 15px;
         }
+    }
+    .carousel {
+        display: none;
     }
 }
 

@@ -48,7 +48,7 @@ $(document).ready(function(){
         responsive: [{
             breakpoint: 992,
             settings: {
-                dots: true,
+                // dots: true,
                 arrows: false
             }
         }]
