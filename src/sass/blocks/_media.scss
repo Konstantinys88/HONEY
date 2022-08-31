@@ -15,6 +15,11 @@
             }
         }
     }
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -83,6 +88,14 @@
     .promo {
         background-position: 20% 100%;
     }
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+        }
+        &__tab {
+            margin-top: 15px;
+        }
+    }
 }
 
 @media (max-width: 480px) {
@@ -90,6 +103,17 @@
         &__header {
             padding: 10px  10px 0;
             gap: 0px;
+            h3 {
+                display: none;
+            }
+        }
+    }
+    .catalog {
+        &__content {
+            margin-right: 18px;
+        }
+        &__tabs {
+            margin-right: 30px;
         }
     }
 }
