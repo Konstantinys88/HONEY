@@ -1,7 +1,7 @@
 .order {
     height: 600px;
     background: url('../img/honeybg2.jpg') no-repeat 50%/cover; 
-    padding: 100px 0 100px 0;
+    padding: 100px 10px 100px 10px;
     &__title {
         font-size: 36px;
         margin: 0;
@@ -10,5 +10,4 @@
         font-size: 36px;
         margin: 0;
     }
-
 }

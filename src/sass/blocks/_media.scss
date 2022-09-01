@@ -107,7 +107,22 @@
             height: 450px;
         }
     }
+    .order {
+        background-position: 100% 100%;
+        &__title {
+            font-size: 30px;
+            text-align: center;
+        }
+        &__consultation {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 50px auto;
+    }
 }
+
 
 @media (max-width: 480px) {
     .promo {
