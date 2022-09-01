@@ -18,7 +18,9 @@ body {
 @import 'blocks/promo';
 @import 'blocks/catalog';
 @import 'blocks/carousel';
+@import 'blocks/order';
 
 
 // медиа файл подключается последним
+@import 'blocks/buttons';
 @import 'blocks/media';
