@@ -47,13 +47,6 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="../img/icons/next.svg"></button>',
         autoplay: true,
         autoplaySpeed: 2000,
-        // responsive: [{
-        //     breakpoint: 992,
-        //     settings: {
-        //         // dots: true,
-        //         arrows: false
-        //     }
-        // }]
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: [
@@ -67,5 +60,6 @@ $(document).ready(function(){
             },
         ]
     });
+    // слайдер
 
 });
