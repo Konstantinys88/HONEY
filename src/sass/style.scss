@@ -13,6 +13,10 @@ body {
     font-family: 'Caveat', sans-serif;
 }
 
+.afterLine {
+    margin: 0 10px 0 10px;
+}
+
 
 @import 'blocks/header';
 @import 'blocks/promo';
